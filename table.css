@@ -1,0 +1,33 @@
+section{
+  background-image: linear-gradient(163deg,#F8345F,#5B33AE);
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+table{
+  background-image: linear-gradient(90deg,#25C097,#25BDA7,#25BAB5);
+  box-shadow: 5px 14px 20px 0px #444242;
+  border-collapse: collapse;
+  border-radius: 2px;
+}
+
+tr,th,td{
+  border-bottom: 1px solid rgba(235, 234, 232, 0.295);
+  color: #FFFFFF;
+  font-family:sans-serif;
+  padding: 22px 80px;
+  font-size: 14px;
+  font-weight: 500;
+  transition: .7s;
+}
+
+tr:hover{
+  background-color:#66D4B8 ;
+  transform: scale(1.1);
+}
+
+th{
+  font-weight: 700;
+}
